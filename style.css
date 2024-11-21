@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Danfo&family=Itim&family=Kalam:wght@300;400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mukta:wght@200;300;400;500;600;700;800&family=Orbitron:wght@400..900&family=Poppins:wght@500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Danfo&family=Itim&family=Kalam:wght@300;400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mukta:wght@200;300;400;500;600;700;800&family=Orbitron:wght@400..900&family=Poppins:wght@500;600;700&display=swap');
+
+body{
+  user-select: none;
+  background-color: #00334d;
+  /* background: linear-gradient(115deg, #00334d     25%,  #00151a 75%); */
+  
+  background-image: url(image\ copy\ 2.png);
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+.container{
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  /* width: 80%; */
+    width: 50%;
+    margin: 50px auto;
+    
+  
+    
+  
+}
+p{
+  font-size: 5vh;
+  font-family: "Poppins", serif;
+  font-weight: 800;
+  letter-spacing: 6px;
+  font-style: normal;
+}
+.main-container{
+
+  display: grid;
+  grid-template-columns: 1fr;
+  background: black;
+  gap: 10px;
+  border: 5px solid aqua;
+  box-shadow: 0px -1px 20px aqua;
+  border-radius: 40px;
+  border: 5px solid aqua;
+  &:hover{
+    background-color: aqua;
+  background-image: url(image\ copy\ 2.png);
+
+    color: black;
+    border: 5px  solid black;
+    box-shadow: 0 0 30px aqua;
+
+      
+  }
+ 
+}
+
+.time, .day-date{
+  font-weight: 800;
+  font-style: bold;
+}
+
+.time{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  text-align: center;
+  gap: 15px;
+}
+.day-date{
+  display: flex;
+  flex-wrap: wrap;
+
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+
+ 
+  .container{
+      width: 90%;
+  }
+    
+      
+    
+}
+
